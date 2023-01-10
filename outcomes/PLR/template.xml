@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <content>
+            <p>Manipulate each expression below until they have the form 
+            <m>r \ln( {{p}} )</m> for some rational number <m>r</m>.</p>
+            <list>
+            <item><p><m> \ln\left( {{arg11}} \right) 
+                    + \ln\left( {{arg21}} \right) </m></p></item>
+            <item><p><m> \ln\left( {{arg12}} \sqrt{ {{g}} } \right) 
+                - \ln\left( {{arg22}}  \sqrt{ {{g}} } \right) </m></p></item>
+            </list>
+        </content>
+        <outtro>
+            <list>
+            <item><p>The given expression equals <m> {{disp_r1}} \ln( {{p}} )</m>. 
+            In other words, <m>r = {{r1}}</m>.</p></item>
+            <item><p>The given expression equals <m> {{disp_r2}} \ln( {{p}} )</m>. 
+            In other words, <m>r = {{r2}}</m>.</p></item>
+            </list>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Manipulate the expression 
+                <m mode = "display">
+                    \ln\left[ {{f}} \right]
+                </m>
+                into a sum/difference of terms of the form <m>r \ln(f(x))</m> where
+                each <m>r</m> is an integer, and each <m>f(x)</m> is an irreducible 
+                algebraic expression.
+            </p>
+        </content>
+        <outtro>
+            <p><m mode="display">
+                {{pp}} \ln(x)
+                + {{qq}} \ln( {{afact}} )
+                + {{rr}} \ln( {{bfact}} )
+                - \ln( {{c1fact}} )
+                - \ln( {{c2fact}} )
+            </m></p>
+        </outtro>
+    </knowl>
+</knowl>

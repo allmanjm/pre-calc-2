@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Sketch the points <m>{{p0}}</m> and <m>{{p1}}</m> in the plane. 
+        Use a right triangle and the Pythagorean Theorem to 
+        determine the distance between <m>{{p0}}</m> and <m>{{p1}}</m>.</p>
+    </content>
+    <outtro>
+        <p>
+            <image
+                source="assets/PDst/generated/{{__seed__}}/Show.png"
+                description="the right triangle determined by the two given points"
+            />
+        </p>
+        <p>The distance between <m>{{p0}}</m> and <m> {{p1}}</m> is <m>{{dist}}</m>.</p>
+    </outtro>
+</knowl>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    For each of the functions below, determine
+        <list>
+            <item><p>for which <m>x</m>-values the function is defined;</p></item>
+            <item><p>for which <m>x</m>-values the function is zero;</p></item>
+            <item><p>a sign chart indicating where the function is positive/negative.</p></item>
+        </list>
+    </intro>
+    <knowl>
+        <content>
+            <p><m>f(x) = \left( {{poly}} \right)
+            \left[ {{a1}} \ln(x) {{s1}} {{b1}} \right]</m>.</p>
+        </content>
+        <outtro>
+            <list>
+            <item><p><m>f(x)</m> is defined for <m>x>0</m>.</p></item>
+            <item><p><m>f(x)=0</m> when <m>x = {{z1}}</m> 
+            (also see the tick marks on the sign chart below).</p></item>
+            <item><p>
+                <image
+                    source = "assets/PTSC/generated/{{__seed__}}/Show1.png"
+                    description = "sign chart for f(x)"
+                /></p></item>
+            </list>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p><m>g(x) = \left( {{poly}} \right)
+            \left[ {{a2}} e^x {{s2}} {{b2}} \right]</m>.</p>
+        </content>
+        <outtro>
+            <list>
+            <item><p><m>g(x)</m> is defined for all <m>x</m>.</p></item>
+            <item><p><m>g(x)=0</m> when <m>x ={{z2}}</m> 
+            (also see the tick marks on the sign chart below).</p></item>
+            <item><p>
+                <image
+                    source = "assets/PTSC/generated/{{__seed__}}/Show2.png"
+                    description = "sign chart for g(x)"
+                /></p></item>
+            </list>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p><m>h(x) = \left( {{poly}} \right)
+            \left[ {{A3}} \sin^2(x) 
+            {{sign1}} {{coeff1}} \sin(x) 
+            {{sign0}} {{coeff0}} \right]</m>.</p>
+            <p>For this task, since <m>\sin(x)</m> is periodic, 
+            solve this problem only for <m>x</m> 
+            in the interval <m>[-3\pi,3\pi]</m>.</p>
+        </content>
+        <outtro>
+            <list>
+            <item><p><m>h(x)</m> is defined for all <m>x</m>.</p></item>
+            <item><p><m>h(x)=0</m> when <m>x = {{z3}}</m> 
+            (also see the tick marks on the sign chart below).</p></item>
+            <item><p>
+                <image
+                    source = "assets/PTSC/generated/{{__seed__}}/Show3.png"
+                    description = "sign chart for h(x)"
+                /></p></item>
+            </list>
+        </outtro>
+    </knowl>
+</knowl>

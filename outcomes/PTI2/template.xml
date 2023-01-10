@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <content>
+            <p>Use the angle-sum formulas (see outcome PTI1) to prove 
+            the double-angle formulas for sine and cosine:</p>
+            <p>
+            <m mode="dispaly">
+                \sin(2\theta) = 2\, \sin(\theta)\, \cos(\theta)
+            </m>
+            </p>
+            <p>
+            <m mode="dispaly">
+                \cos(2\theta) = \cos^2(\theta) - \sin^2(\theta)
+            </m>
+            <m mode="dispaly">
+                \phantom{\cos(2\theta)} = 2\cos^2(\theta) - 1
+            </m>
+            <m mode="dispaly">
+                \phantom{\cos(2\theta)} = 1-2\sin^2(\theta).
+            </m>
+            </p>
+        </content>
+        <outtro>
+            <p>Consider the angle sum formulas for <m>\sin(A+B)</m> and <m>\cos(A+B)</m>
+            with <m>A=B=\theta</m>.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Use the double-angle formulas to manipulate the expression below
+            and rewrite it as a polynomial in <m>\sin(\theta)</m> and <m>\cos(\theta)</m>; 
+            i.e., eliminate all occurences of <m>2\theta</m> inside of 
+            trigonometric functions.</p>
+            <p>
+            <m mode="display">
+                {{A}}\sin^{ {{p}} }(2\theta)  {{B}}\cos(2\theta)
+            </m>
+            </p>
+        </content>
+        <outtro>
+            <p>There are (at least) three equivalent ways to write the answer</p>
+            <p>
+            <m mode="display">
+                {{sc}} \sin^{ {{p}} }(\theta) \cos^{ {{p}} }(\theta)
+                {{c1}} \cos^2(\theta) {{s1}} \sin^2(\theta)
+            </m>
+            <m mode="display">
+                = {{sc}} \sin^{ {{p}} }(\theta) \cos^{ {{p}} }(\theta)
+                {{c2}} \cos^2(\theta) {{const2}}
+            </m>
+            <m mode="display">
+                = {{sc}} \sin^{ {{p}} }(\theta) \cos^{ {{p}} }(\theta)
+                {{const3}} {{s3}} \sin^2(\theta)
+            </m>
+            </p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Use the half-angle formulas to manipulate the expression below
+            and rewrite it without any exponents on <m>\sin</m> or <m>\cos</m>.</p>
+            <p>
+            <m mode="display">
+                {{a}}\cos^2({{arg1}}) - {{b}}\sin^2({{arg2}})
+            </m>
+            </p>
+        </content>
+        <outtro>
+            <p>
+            <m mode="display">
+                {{ans}}
+            </m>
+            </p>
+        </outtro>
+    </knowl>
+</knowl>

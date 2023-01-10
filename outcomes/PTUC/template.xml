@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <content>
+            <p>Sketch the angle <m>\theta = \frac{\pi}{ {{denom}} }</m> on the unit circle. 
+            Also, report the values of <m>\cos\left( \frac{\pi}{ {{denom}} } \right)</m> 
+            and <m>\sin\left( \frac{\pi}{ {{denom}} } \right)</m>.</p>
+        </content>
+        <outtro>
+            <p>
+                <image
+                    source = "assets/PTUC/generated/{{__seed__}}/Show1.png"
+                    description = "The given first-quadrant angle"
+                />
+            </p>
+            <p>
+            The cosine of the given angle is <m>{{cosQ1}}</m>. 
+            The sine of the given angle is <m>{{sinQ1}}</m>.
+            </p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Sketch the angle <m>\theta = {{angle}} </m> on the unit circle. 
+            Also, use your answers to the previous task to help you 
+            report the values for each of the six trigonometric functions 
+            <m>\sin(\theta)</m>, <m>\cos(\theta)</m>, 
+            <m>\tan(\theta)</m>, <m>\cot(\theta)</m>, 
+            <m>\sec(\theta)</m>, and <m>\csc(\theta)</m>.
+            </p>
+        </content>
+        <outtro>
+            <p>
+                <image
+                    source = "assets/PTUC/generated/{{__seed__}}/Show2.png"
+                    description = "The given first-quadrant angle"
+                />
+            </p>
+            <p><m>\sin(\theta) = {{sinA}}</m></p>
+            <p><m>\cos(\theta) = {{cosA}}</m></p>
+            <p><m>\tan(\theta) = {{tanA}}</m></p>
+            <p><m>\cot(\theta) = {{cotA}}</m></p>
+            <p><m>\sec(\theta) = {{secA}}</m></p>
+            <p><m>\csc(\theta) = {{cscA}}</m></p>
+        </outtro>
+    </knowl>
+</knowl>

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bank xmlns="https://checkit.clontz.org" version="0.2">
+    <title>Precalculus Skills 2</title>
+    <slug>PreCalcSkills2</slug>
+    <url>https://checkit.clontz.org</url>
+    <outcomes>
+        <outcome>
+            <title>Distance in the plane</title>
+            <slug>PDst</slug>
+            <path>outcomes/PDst</path>
+            <description>
+I can use the Pythagorean Theorem to compute distances in the plane.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Circles and equations</title>
+            <slug>PCE</slug>
+            <path>outcomes/PCE</path>
+            <description>
+I can write an equation for a circle with a given center and radius. Conversely, I can identify the center and radius from an equation which defines a circle.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Trigonometry and the unit circle</title>
+            <slug>PTUC</slug>
+            <path>outcomes/PTUC</path>
+            <description>
+I can use the unit circle to compute values of trigonometric functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Trigonometry in right triangles</title>
+            <slug>PTRT</slug>
+            <path>outcomes/PTRT</path>
+            <description>
+I can compute lengths of sides and measures of angles using trigonometry in right triangles.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Trigonometric Identities 1</title>
+            <slug>PTI1</slug>
+            <path>outcomes/PTI1</path>
+            <description>
+I can manipulate and/or simplify expressions involving the "Pythagorean" and "angle-sum" trigonometric identities.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Trigonometric Identities 2</title>
+            <slug>PTI2</slug>
+            <path>outcomes/PTI2</path>
+            <description>
+I can manipulate and simplify expressions involving the "double-angle" and "half-angle" (aka "power reduction") trigonometric identities.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Logarithm Rules</title>
+            <slug>PLR</slug>
+            <path>outcomes/PLR</path>
+            <description>
+I can use "logarithm rules" to manipulate and simplify expressions involving logarithms.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Basic Graphs: sine and cosine</title>
+            <slug>PGSC</slug>
+            <path>outcomes/PGSC</path>
+            <description>
+I can sketch basic graphs of the sine and cosine functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Basic Graphs: logarithms and exponentials</title>
+            <slug>PGLE</slug>
+            <path>outcomes/PGLE</path>
+            <description>
+I can sketch basic graphs of exponential functions and logarithms.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Basic Graphs: tangent and arctangent</title>
+            <slug>PGTA</slug>
+            <path>outcomes/PGTA</path>
+            <description>
+I can sketch basic graphs of the tangent and arctangent functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Analyzing transcendental functions</title>
+            <slug>PTSC</slug>
+            <path>outcomes/PTSC</path>
+            <description>
+I can determine when a transcendental function is zero or undefined and make a sign chart.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Similar Triangles</title>
+            <slug>PST</slug>
+            <path>outcomes/PST</path>
+            <description>
+I can use triangle similarity to compute lengths in the plane.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Synthesis 1.1</title>
+            <slug>PSy1.1</slug>
+            <path>outcomes/PSy1.1</path>
+            <description>
+I can manipulate expressions and solve equations 
+by successively performing multiple algebraic steps.
+            </description>
+        </outcome>
+    </outcomes>
+</bank>

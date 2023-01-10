@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Use the triangles below to solve for the value of <m>x</m>. 
+        Use <m>p(x) = {{p}}</m> and <m>h(x) = {{h}}</m>.</p>
+        <p><image
+            source="assets/PST/generated/{{__seed__}}/Show.png"
+        /></p>
+    </content>
+    <outtro>
+        <p><m>x = {{answer}}</m></p>
+    </outtro>
+</knowl>
