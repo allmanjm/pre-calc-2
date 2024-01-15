@@ -18,7 +18,7 @@ The learning outcomes in this *Precalculus Skills 2* bank directly support the *
 ###### PDst. Distance in the plane. 
 I can use the Pythagorean Theorem to compute distances in the plane.
 
-###### PCE. Circles and equations.
+###### PCir. Circles and equations.
 I can write an equation for a circle with a given center and radius. Conversely, I can identify the center and radius from an equation which defines a circle.
 
 ###### PTUC. Trigonometry and the unit circle.
@@ -28,28 +28,28 @@ I can use the unit circle to compute values of trigonometric functions.
 I can compute lengths of sides and measures of angles using trigonometry in right triangles.
 
 ###### PTI1. Trigonometric Identities 1.
-I can manipulate and/or simplify expressions involving the "Pythagorean" and "angle-sum" trigonometric identities.
+I can manipulate and/or simplify expressions involving the "Pythagorean" identities.
 
 ###### PTI2. Trigonometric Identities 2.
-I can manipulate and simplify expressions involving the "double-angle" and "half-angle" (aka "power reduction") trigonometric identities.
+I can use the "angle sum" formulas to compute values of trigonometric functions.
 
-###### PLR. Logarithm Rules.
-I can use "logarithm rules" to manipulate and simplify expressions involving logarithms.
+###### PLog. Logarithm Rules.
+I can use "logarithm rules" to manipulate expressions and solve equations involving logarithms.
 
-###### PGSC. Basic Graphs: sines and cosines.
-I can sketch basic graphs of the sine and cosine functions.
+###### PBSC. Basic for sine and cosine.
+I can sketch graphs involving the sine and cosine functions and correctly interpret notation for trigonometric functions.
 
-###### PGLE. Basic Graphs: logarithms and exponentials.
-I can sketch basic graphs of exponential functions and logarithms.
+###### PIF1. Inverse Functions 1.
+I can describe, compute, and sketch the inverse of a given algebraic function.
 
-###### PGTA. Basic Graphs: tangents and arctangents.
-I can sketch basic graphs of the tangent and arctangent functions.
+###### PIF2. Inverse Functions 2.
+I can describe, compute, and sketch inverse functions for common transcendental functions.
 
 ###### PTSC. Analyzing transcendental functions.
-I can determine when a transcendental function is zero or undefined and make a sign chart.
+I can make a sign chart for an expression involving common transcendental functions.
 
-###### PST. Similar Triangles.
-I can use triangle similarity to compute lengths in the plane.
+###### PSim. Similar Triangles.
+I can use similarity to compute lengths in the plane.
 
-###### PSy1.1. Synthesis 1.1.
+###### PEqn. Solving Equations.
 I can manipulate expressions and solve equations by successively performing multiple algebraic steps.

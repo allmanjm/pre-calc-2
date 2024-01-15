@@ -33,7 +33,8 @@ I can use the unit circle to compute values of trigonometric functions.
             <slug>PTRT</slug>
             <path>outcomes/PTRT</path>
             <description>
-I can compute lengths of sides and measures of angles using trigonometry in right triangles.
+I can compute lengths of sides and measures of angles using trigonometry 
+in right triangles.
             </description>
         </outcome>
         <outcome>
@@ -89,7 +90,7 @@ I can describe, compute, and sketch inverse functions for common transcendental 
             <slug>PTSC</slug>
             <path>outcomes/PTSC</path>
             <description>
-I can determine when a transcendental function is zero or undefined and make a sign chart.
+I can make a sign chart for an expression involving common transcendental functions.
             </description>
         </outcome>
         <outcome>
