@@ -29,8 +29,22 @@ class Generator(BaseGenerator):
         ext_pts = [phase + i*period/4 for i in range(5)];
         tickmarks = ext_pts; #[phase + period/4, phase+period/2, phase+3*period/4];
 
-        
 
+
+        #task3 stuff
+        if f == sin:
+            w = cos;
+        else:
+            w = sin;
+        
+        p = randrange(2,6);
+        t_star = choice([-1,1])*randrange(1,1000)/100;
+        num = randrange(1,10);
+        denom = choice([i for i in range(1,10) if i!=num]);
+        omega = QQ(num/denom);
+
+
+        #task4 stuff
 
 
         return {
@@ -44,6 +58,13 @@ class Generator(BaseGenerator):
             "xend": xend,
             "epts": ext_pts,
             "tickmarks": tickmarks,
+            "w": w,
+            "p": p,
+            "tstar": t_star,
+            "tstar_disp": round(t_star,3),
+            "omega": omega,
+            "eval3": round( (w(omega*t_star))^p ,4),
+            "eval4": round( w(omega*t_star^p) ,4),
         }
 
     @provide_data

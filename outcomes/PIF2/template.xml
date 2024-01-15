@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <content>
+            <list>
+            <item><p>Sketch (by hand, on paper) 
+            a graph of the function <m>y = \tan(x)</m> (where defined) for <m>x</m>
+            in the interval <m>[-\pi,\pi]</m>. Include any <m>x</m>- or <m>y</m>-intercepts and 
+            any horizontal or vertical asymptotes on your sketch.</p></item>
+            <item><p>Sketch (by hand, on paper) 
+            a graph of the function <m>y = \arctan(x)</m>. 
+            Include any <m>x</m>- or <m>y</m>-intercepts and 
+            any horizontal or vertical asymptotes on your sketch.</p></item>
+            <item><p>In interval notation, give the domain and range of both 
+            of the functions you graphed in the previous two items.</p></item>
+            </list>
+        </content>
+        <outtro>
+            <list>
+            <item><p><image 
+                source = "assets/PIF2/generated/{{__seed__}}/Show1.png"
+                description = "the graph of $y=\tan(x)$"
+            /></p></item>
+            <item><p><image 
+                source = "assets/PIF2/generated/{{__seed__}}/Show2.png"
+                description = "the graph of $y=\arctan(x)$"
+            /></p></item>
+            <item><p><m>\tan(x)</m>: 
+                Domain = any real number except odd multiples of <m>\pi/2</m>; 
+                Range <m>=(-\infty,\infty)</m>.</p>
+                <p><m>\arctan(x)</m>: 
+                Domain <m>=(-\infty,\infty)</m>;
+                Range <m>= (-\pi/2,\pi/2)</m>.</p></item>
+            </list>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <list>
+            <item><p>Sketch (by hand, on paper) 
+            a graph of the function <m>y = \exp(x) = e^x</m>. 
+            Include any <m>x</m>- or <m>y</m>-intercepts and 
+            any horizontal or vertical asymptotes on your sketch.</p></item>
+            <item><p>Sketch (by hand, on paper) 
+            a graph of the function <m>y = \ln(x)</m>. 
+            Include any <m>x</m>- or <m>y</m>-intercepts and 
+            any horizontal or vertical asymptotes on your sketch.</p></item>
+            <item><p>In interval notation, give the domain and range of both 
+            of the functions you graphed in the previous two items.</p></item>
+            </list>
+        </content>
+        <outtro>
+            <list>
+            <item><p><image 
+                source = "assets/PIF2/generated/{{__seed__}}/Show3.png"
+                description = "the graph of $y=\exp(x) = e^x$"
+            /></p></item>
+            <item><p><image 
+                source = "assets/PIF2/generated/{{__seed__}}/Show4.png"
+                description = "the graph of $y=\ln(x)$"
+            /></p></item>
+            <item><p><m>\exp(x) = e^x</m>: 
+                Domain <m>= (-\infty,\infty)</m>; 
+                Range <m>=(0,\infty).</m></p>
+                <p><m>\ln(x)</m>: 
+                Domain <m>=(0,\infty)</m>;
+                Range <m>= (-\infty,\infty)</m>.</p></item>
+            </list>
+        </outtro>
+    </knowl>
+    <knowl>
+        <knowl>
+            <content>
+            <p> Write out (in words!) a sequence of steps 
+            to describe what the function 
+            <m mode="display">
+                f(x) = {{d}} + 
+                {{c}} {{TRAN}} \left( {{a}} x {{sign_inside}} {{b}} \right)
+            </m> 
+            does to an input <m>x</m> (whenever it is defined). </p>
+            <p> For example, Step1 could be: 
+            "Multiply <m>x</m> by <m>{{a}}</m> ". </p>
+            </content>
+            <outtro>
+            <p>One solution is</p>
+            <list>
+            <item><p>Step1. Multiply <m>x</m> by <m>{{a}}</m>.</p></item>
+            <item><p>Step2. Add <m> {{b}} </m> to the result of Step1.</p></item>
+            <item><p>Step3. Compute <m> {{TRAN}} </m> of the result of Step2.</p></item>
+            <item><p>Step4. Multiply the result of Step3 by <m>{{c}}</m>.</p></item>
+            <item><p>Step5. Add <m> {{d}} </m> to the result of Step4.</p></item>
+            </list>
+            </outtro>
+        </knowl>
+        <knowl>
+            <content>
+            <p> Reverse (aka invert) your steps from the previous 
+            task to write down a sequence of steps (in words!) which describes 
+            what the inverse function <m>f^{-1}(x)</m> does to an input <m>x</m> 
+            (whenever it is defined).</p>
+            <p> Then use your inverted
+            steps to write an equation for the inverse function.</p>
+            </content>
+            <outtro>
+            <p>One solution is</p>
+            <list>
+            <item><p>Step1. Add <m>{{d1}} </m> to <m>x</m>.</p></item>
+            <item><p>Step2. Multiply the result of Step1 by <m>{{c1}} </m>.</p></item>
+            <item><p>Step3. Compute <m>{{tran}} </m> of the result of Step2.</p></item>
+            <item><p>Step4. Add <m> {{b1}} </m> to the result of Step3.</p></item>
+            <item><p>Step5. Multiply the result of Step4 by <m>{{a1}} </m>.</p></item>
+            </list>
+            <p>The corresponding inverse function is
+            <m mode = "display">
+                f^{-1}(x) = {{ab1}} + {{a1}} {{tran}} \left( {{f1_arg}} \right)  
+            </m>
+            </p>
+            </outtro>
+        </knowl>
+    </knowl>
+</knowl>

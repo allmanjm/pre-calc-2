@@ -12,11 +12,10 @@ class Generator(BaseGenerator):
         sign = choice([1,-1]);
 
         lhs = p*B^(p-1)*C + sign*(A*C+B)*trans_deriv_dict[t](A*B);
-        rhs = a*A^(a-1)*B^b + b*A^a*B^(b-1);
+        rhs = a*A^(a-1)*B^b + b*A^a*B^(b-1)*C;
 
         return {
             "lhs": lhs,
             "rhs": rhs,
-            "num_ans": rhs - sign*B*trans_deriv_dict[t](A*B),
-            "den_ans": p*B^(p-1) + sign*A*trans_deriv_dict[t](A*B),
+            "answer": solve(lhs == rhs, C)[0],
         }

@@ -4,7 +4,7 @@
         <p>Use the triangles below to solve for the value of <m>x</m>. 
         Use <m>p(x) = {{p}}</m> and <m>h(x) = {{h}}</m>.</p>
         <p><image
-            source="assets/PST/generated/{{__seed__}}/Show.png"
+            source="assets/PSim/generated/{{__seed__}}/Show.png"
         /></p>
     </content>
     <outtro>

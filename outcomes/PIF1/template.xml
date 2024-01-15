@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Consider the invertible function given below. 
+            <m mode = "display">
+                f(x) = {{c}} \left( {{farg}} \right)^{ {{b}} }
+            </m>
+        </p>
+    </intro>
+    <knowl>
+        <content>
+        <p> Write out (in words!) a sequence of steps 
+        to describe what the function <m>f</m> does to an input <m>x</m>. </p>
+        <p> For example, Step1 could be: 
+        "add the number <m>{{a}}</m> to <m>x</m>". </p>
+        </content>
+        <outtro>
+        <p>One solution is</p>
+            <list>
+            <item><p>Step1. Add <m>{{a}}</m> to <m>x</m>.</p></item>
+            <item><p>Step2. Raise the result of Step1 
+            to the power of <m>{{b}}</m>.</p></item>
+            <item><p>Step3. Multiply the result of Step2
+            by the number <m>{{c}} </m>.</p></item>
+            </list>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+        <p> Reverse (aka invert) your steps from the previous 
+        task to write down a sequence of steps (in words!) which describes 
+        what the inverse function <m>f^{-1}(x)</m> does to an input <m>x</m>.</p>
+        <p> Then use your inverted
+        steps to write an equation for the inverse function.</p>
+        </content>
+        <outtro>
+        <p>One solution is</p>
+            <list>
+            <item><p>Step1. Multiply <m>x</m> by <m>{{c1}}</m>.</p></item>
+            <item><p>Step2. Raise the result of Step1 
+            to the power of <m>{{b1}}</m>.</p></item>
+            <item><p>Step3. Subtract <m>{{a}}</m> from 
+            the result of Step2.</p></item>
+            </list>
+        <p>The corresponding inverse function is
+            <m mode = "display">
+                f^{-1}(x) = \left( {{f1arg}} \right)^{ {{b1}} } {{sign1}} {{a1}}
+            </m>
+        </p>
+        </outtro>
+    </knowl>
+</knowl>

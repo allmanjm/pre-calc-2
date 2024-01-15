@@ -14,8 +14,8 @@ I can use the Pythagorean Theorem to compute distances in the plane.
         </outcome>
         <outcome>
             <title>Circles and equations</title>
-            <slug>PCE</slug>
-            <path>outcomes/PCE</path>
+            <slug>PCir</slug>
+            <path>outcomes/PCir</path>
             <description>
 I can write an equation for a circle with a given center and radius. Conversely, I can identify the center and radius from an equation which defines a circle.
             </description>
@@ -41,7 +41,7 @@ I can compute lengths of sides and measures of angles using trigonometry in righ
             <slug>PTI1</slug>
             <path>outcomes/PTI1</path>
             <description>
-I can manipulate and/or simplify expressions involving the "Pythagorean" and "angle-sum" trigonometric identities.
+I can manipulate and/or simplify expressions involving the "Pythagorean" identities.
             </description>
         </outcome>
         <outcome>
@@ -49,39 +49,39 @@ I can manipulate and/or simplify expressions involving the "Pythagorean" and "an
             <slug>PTI2</slug>
             <path>outcomes/PTI2</path>
             <description>
-I can manipulate and simplify expressions involving the "double-angle" and "half-angle" (aka "power reduction") trigonometric identities.
+I can use the "angle sum" formulas to compute values of trigonometric functions.
             </description>
         </outcome>
         <outcome>
             <title>Logarithm Rules</title>
-            <slug>PLR</slug>
-            <path>outcomes/PLR</path>
+            <slug>PLog</slug>
+            <path>outcomes/PLog</path>
             <description>
-I can use "logarithm rules" to manipulate and simplify expressions involving logarithms.
+I can use "logarithm rules" to manipulate expressions and solve equations involving logarithms.
             </description>
         </outcome>
         <outcome>
-            <title>Basic Graphs: sine and cosine</title>
-            <slug>PGSC</slug>
-            <path>outcomes/PGSC</path>
+            <title>Basics for sine and cosine</title>
+            <slug>PBSC</slug>
+            <path>outcomes/PBSC</path>
             <description>
-I can sketch basic graphs of the sine and cosine functions.
+I can sketch graphs involving the sine and cosine functions and correctly interpret notation for trigonometric functions.
             </description>
         </outcome>
         <outcome>
-            <title>Basic Graphs: logarithms and exponentials</title>
-            <slug>PGLE</slug>
-            <path>outcomes/PGLE</path>
+            <title>Inverse Functions 1</title>
+            <slug>PIF1</slug>
+            <path>outcomes/PIF1</path>
             <description>
-I can sketch basic graphs of exponential functions and logarithms.
+I can describe, compute, and sketch the inverse of a given algebraic function.
             </description>
         </outcome>
         <outcome>
-            <title>Basic Graphs: tangent and arctangent</title>
-            <slug>PGTA</slug>
-            <path>outcomes/PGTA</path>
+            <title>Inverse Functions 2</title>
+            <slug>PIF2</slug>
+            <path>outcomes/PIF2</path>
             <description>
-I can sketch basic graphs of the tangent and arctangent functions.
+I can describe, compute, and sketch inverse functions for common transcendental functions.
             </description>
         </outcome>
         <outcome>
@@ -94,16 +94,16 @@ I can determine when a transcendental function is zero or undefined and make a s
         </outcome>
         <outcome>
             <title>Similar Triangles</title>
-            <slug>PST</slug>
-            <path>outcomes/PST</path>
+            <slug>PSim</slug>
+            <path>outcomes/PSim</path>
             <description>
-I can use triangle similarity to compute lengths in the plane.
+I can use similarity to compute lengths in the plane.
             </description>
         </outcome>
         <outcome>
-            <title>Synthesis 1.1</title>
-            <slug>PSy1.1</slug>
-            <path>outcomes/PSy1.1</path>
+            <title>Solving Equations</title>
+            <slug>PEqn</slug>
+            <path>outcomes/PEqn</path>
             <description>
 I can manipulate expressions and solve equations 
 by successively performing multiple algebraic steps.

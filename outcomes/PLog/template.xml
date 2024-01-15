@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <content>
+            <p>Manipulate the expression below until it has the form 
+            <m>r \ln( {{p}} )</m> for some rational number <m>r</m>.
+            <m mode="display"> \ln\left( {{arg11}} \right) 
+                    + \ln\left( {{arg21}} \right) </m>
+            </p>
+        </content>
+        <outtro>
+            <p>The given expression equals <m> {{disp_r1}} \ln( {{p}} )</m>. 
+            In other words, <m>r = {{r1}}</m>.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Manipulate the expression 
+                <m mode = "display">
+                    \ln\left[ {{f}} \right]
+                </m>
+                into a sum/difference of terms of the form <m>r \ln(f(x))</m> where
+                each <m>r</m> is an integer, and each <m>f(x)</m> is an irreducible 
+                algebraic expression.
+            </p>
+        </content>
+        <outtro>
+            <p><m mode="display">
+                {{pp}} \ln(x)
+                + {{qq}} \ln( {{afact}} )
+                + {{rr}} \ln( {{bfact}} )
+                - \ln( {{c1fact}} )
+                - \ln( {{c2fact}} )
+            </m></p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Find all real solutions for <m>x</m> in the equation below.
+                <m mode="display">
+                \log_{ {{b}} }\left( {{log1}} \right) +
+                \log_{ {{b}} }\left( {{log2}} \right) =
+                \log_{ {{b}} }\left( {{d}} \right)
+                </m>
+            Explain and demonstrate how you found your solutions, or 
+            if no solutions exist, explain and demonstrate why not.
+            </p>
+        </content>
+        <outtro>
+            <p>Real solutions for <m>x</m>: {{answer1}}; {{answer2}} </p>
+        </outtro>
+    </knowl>
+</knowl>

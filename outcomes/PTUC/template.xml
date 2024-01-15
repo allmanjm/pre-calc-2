@@ -22,11 +22,13 @@
     <knowl>
         <content>
             <p>Sketch the angle <m>\theta = {{angle}} </m> on the unit circle. 
-            Also, use your answers to the previous task to help you 
-            report the values for each of the six trigonometric functions 
-            <m>\sin(\theta)</m>, <m>\cos(\theta)</m>, 
-            <m>\tan(\theta)</m>, <m>\cot(\theta)</m>, 
-            <m>\sec(\theta)</m>, and <m>\csc(\theta)</m>.
+            Also, explain and demonstrate how to use your answers to the 
+            previous task to help you report the values for each of the six 
+            trigonometric functions 
+                <m mode="display">
+                \sin(\theta), \cos(\theta),\tan(\theta),
+                \cot(\theta),\sec(\theta),\csc(\theta)
+                </m>.
             </p>
         </content>
         <outtro>

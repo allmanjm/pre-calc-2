@@ -6,6 +6,8 @@
         <p><m mode = "display"> {{lhs}} = {{rhs}} </m>.</p>
     </content>
     <outtro>
-        <p><m mode="display">\frac{ {{num_ans}} }{ {{den_ans}} }</m></p>
+        <p><m mode="display"> 
+            {{answer}}
+        </m></p>
     </outtro>
 </knowl>

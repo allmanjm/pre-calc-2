@@ -22,7 +22,7 @@ radius <m> {{radius}} </m>.
                 <item>
                 <p>The image of the circle:</p>
 <p><image
-    source="assets/PCE/generated/{{__seed__}}/Show1.png"
+    source="assets/PCir/generated/{{__seed__}}/Show1.png"
     description="a red circle with given radius and blue center point"
 /></p>
                 <p>Check the scale on the <m>x</m> and <m>y</m>
@@ -47,7 +47,7 @@ For the circle depicted below, write equations which define
 the length of the radius are all integer values.)
             </p>
 <p><image
-    source="assets/PCE/generated/{{__seed__}}/Show2.png"
+    source="assets/PCir/generated/{{__seed__}}/Show2.png"
     description="a red circle with a blue center point"
 /></p>            
         </content>

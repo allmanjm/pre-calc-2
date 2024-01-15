@@ -1,13 +1,12 @@
 class Generator(BaseGenerator):
     def data(self):
         # task1 stuff
-        f = choice([r'\sin^2(\theta)',r'\tan^2(\theta)',r'\cot^2(\theta)']);
+        f = choice([r'\sin^2(\theta)',r'\cos^2(\theta)']);
         p = randrange(2,10);
-
+        g = choice([r'\tan',r'\cot',r'\sec',r'\csc']);
         sign = choice(["+","-"]);
         
-        if f == r'\sin^2(\theta)':
-            g = choice([r'\tan',r'\cot',r'\sec',r'\csc']);
+        if f == r'\sin^2(\theta)':  
             if sign == "+":
                 h = r'\cos^2(\theta)';
                 b = " ";
@@ -16,36 +15,46 @@ class Generator(BaseGenerator):
                 h = " ";
                 b = r"\cos^2(\theta) ";
                 q = sign;
-        elif f == r'\tan^2(\theta)':
-            g = choice([r'\sin',r'\cot',r'\cos',r'\csc']);
-            if sign == "+":
-                h = " ";
-                b = r"\sec^2(\theta)";
-                q = " "
-            else:
-                h = r'\sec^2(\theta)';
-                b = " ";
-                q = sign;
         else:
-            g = choice([r'\sin',r'\tan',r'\cos',r'\sec']);
             if sign == "+":
-                h = " ";
-                b = r'\csc^2(\theta)';
+                h = r'\sin^2(\theta)';
+                b = " ";
                 q = " ";
             else:
-                h = r'\csc^2(\theta)';
-                b = " ";
+                h = " ";
+                b = r'\sin^2(\theta)';
                 q = sign;
-
-        if b == " ":
-            bb = 1;
-        else:
-            bb = b;
-
-
+        
+        
         # task2 stuff
-        theta_deg = choice([45,135,225,315])*choice([1,-1]);
-        phi_deg = choice([30,60,120,150,210,])*choice([1,-1]);
+        F = choice([r'\tan^2(\theta)',r'\cot^2(\theta)']);
+        P = randrange(2,10);
+        SIGN = choice(["+","-"]);
+
+
+
+        if F == r'\tan^2(\theta)':
+            G = choice([r'\sin',r'\cot',r'\cos',r'\csc']);
+            if SIGN == "+":
+                H = " ";
+                B = r"\sec^2(\theta)";
+                Q = " "
+            else:
+                H = r'\sec^2(\theta)';
+                B = " ";
+                Q = SIGN;
+        else:
+            G = choice([r'\sin',r'\tan',r'\cos',r'\sec']);
+            if SIGN == "+":
+                H = " ";
+                B = r'\csc^2(\theta)';
+                Q = " ";
+            else:
+                H = r'\csc^2(\theta)';
+                B = " ";
+                Q = SIGN;
+
+
 
 
         return {
@@ -55,9 +64,12 @@ class Generator(BaseGenerator):
             "h": h,
             "b": b,
             "q": q,
-            "bb": bb,
             "pm": sign,
-            "AB": theta_deg+phi_deg,
-            "sAB": sin((theta_deg+phi_deg)*pi/180),
-            "cAB": cos((theta_deg+phi_deg)*pi/180),
+            "F": F,
+            "G": G,
+            "P": P,
+            "H": H,
+            "B": B,
+            "Q": Q,
+            "PM": SIGN,
         }
