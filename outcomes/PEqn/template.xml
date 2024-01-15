@@ -3,7 +3,7 @@
     <content>
         <p>Solve for the variable <m>C</m> in the following expression. 
         Your answer will depend on the variables <m>A</m> and <m>B</m>.</p>
-        <p><m mode = "display"> {{lhs}} = {{rhs}} </m>.</p>
+        <p><m mode = "display"> {{lhs}} = {{rhs}} .</m></p>
     </content>
     <outtro>
         <p><m mode="display"> 
